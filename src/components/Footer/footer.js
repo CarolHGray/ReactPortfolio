@@ -1,5 +1,4 @@
 import React from "react";
-import Grid from "@mui/material/Grid";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import "./Footer.css";
@@ -8,16 +7,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div style={{ paddingTop: "30px", paddingBottom: "30px" }}>
-      <Grid
-        style={{ display: "flex", justifyContent: "center" }}
-        container
-        sx={{ color: "text.primary" }}
-      >
-        <Grid
-          style={{ display: "flex", justifyContent: "space-evenly" }}
-          item
-          xs={4}
-        >
+      
         
           <GitHubIcon
             id="icon"
@@ -36,8 +26,7 @@ const Footer = () => {
               (window.location.href = "mailto:fivegrays@yahoo.com")
             }
           />
-        </Grid>
-      </Grid>
+      
     </div>
   );
 };
