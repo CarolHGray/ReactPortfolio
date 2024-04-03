@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import hero from "../../../images/HeroImage.png";
+import hero from "../../../images/PlantStructure.jpeg";
 import CardMedia from "@mui/material/CardMedia";
 
 // Function that renders the about page & exports
