@@ -23,9 +23,10 @@ export default function About() {
       </div>
 
       <div style={{ width: "70%", margin: "0 auto" }}>
-        <h1 id="about-me-title">About Me</h1>
+        <h1 id="about-me-title">Manufacturing applications!</h1>
         <p id="p-about">
-          Here's my portfolio.
+          Welcome to my portfolio site. After 30+ years of experience in chemicals manufacturing, I have started a new journey in coding and web development. My portfolio includes about 15 active sites on my Github repo, with many more to come. Check back on my site for future projects!
+           
         </p>
         <p id="p-about">
           {" "}

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Navigation.css";
-import Box from "@mui/material/Box";
-import { Button } from "@mui/material";
-import useTab from "@mui/base/useTab";
+//import Box from "@mui/material/Box";
+//import { Button } from "@mui/material";
+//import useTab from "@mui/base/useTab";
 
-const pages = ["About", "Portfolio", "Contact"];
+//const pages = ["About", "Portfolio", "Contact"];
 
 // Function that renders nav links and calls setCurrentPage allowing state to be changed
 function Navigation({ currentPage, setCurrentPage, handleCloseNavMenu }) {
@@ -45,16 +45,7 @@ function Navigation({ currentPage, setCurrentPage, handleCloseNavMenu }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
-        <a
-          id="nav-link"
-          href="#resume"
-          onClick={() => setCurrentPage("Resume")}
-          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
-        >
-          Resume
-        </a>
-      </li>
+    
     </ul>
 
    
