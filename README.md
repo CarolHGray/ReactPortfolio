@@ -36,9 +36,6 @@ This application gave me a chance to use React tools to develop a portfolio webs
 
 [Link to Carol's Github site](https://github.com/CarolHGray/ReactPortfolio)
 
-## Screenshots
-
-![Screenshot1-week-20-challenge](../src/images/ReactPortfolio.png)
 ## Technologies Used
 
 This application is powered by React.js (v18.2.0). 
